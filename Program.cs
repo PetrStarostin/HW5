@@ -65,3 +65,39 @@
 // WriteArray(array);
 // Console.WriteLine($"Сумма элементов на нечетных позициях: {SumOfOddIndexNum(array)}");
 
+//Задайте массив вещественных чисел. Найдите разницу между максимальным и минимальным элементов массива.
+// void DifferenceOf(double[] array)
+// {
+//     double min = array[0];
+//     double max = array[0];
+//     for(int i = 1 ; i < array.Length ; i++)
+//     {
+//         if(min > array[i]) min = array[i];
+//         if(max < array[i]) max = array[i];
+//     }
+//   Console.WriteLine($"Разность между максимальной и минимальной: {max - min}");
+// }
+
+// double [] CreateRandomArray(int size)
+// {
+//     double[] array = new double[size];
+
+//     for(int i = 0;  i < size; i++)
+//     {
+//         array[i] = new Random().Next(1, 999 + 1);
+//         array[i] += Math.Round(new Random().NextDouble(), 2);
+//     }
+//     return array;
+// }
+// void WriteArray(double[] array)
+// {
+//     for(int i = 0 ; i < array.Length; i++)
+//         Console.Write(Math.Round(array[i], 2) + " ");
+    
+//     Console.WriteLine();
+// }
+// Console.Write("Введите размер массива: ");
+// int size = Convert.ToInt32(Console.ReadLine());
+// double[] array = CreateRandomArray(size);
+// WriteArray(array);
+// DifferenceOf(array);
