@@ -64,3 +64,4 @@
 // int[] array = CreateRandomArray(size);
 // WriteArray(array);
 // Console.WriteLine($"Сумма элементов на нечетных позициях: {SumOfOddIndexNum(array)}");
+
